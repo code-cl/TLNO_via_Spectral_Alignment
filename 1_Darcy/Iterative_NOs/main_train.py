@@ -88,14 +88,14 @@ if __name__ == "__main__":
     args['save_trdata_size'] = 100
     dim_space = 2 # Attention!!!
     n_trains = [1000]
-    n_times = 1
+    n_times = 3
     
     # Set training parameter
     args['device'] = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     args['loss']   = 'L2' # L2 or SSE
     args['batch_size']   = 16
     args['learn_rate']   = 0.001
-    args['epoch'  ]      = 5
+    args['epoch'  ]      = 500
     args['max_grad_norm'] = 0.1
     args['placeholder']   = True 
     args['initialize_weights'] = True
