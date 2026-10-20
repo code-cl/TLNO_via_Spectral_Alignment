@@ -1,0 +1,16 @@
+
+The requirements for DeepONet:
+tensorflow==1.15
+py-pde==0.13.3
+numpy
+scipy==1.4.1
+matplotlib
+sklearn
+
+The requirements for Transolver, NORM and NORM++:
+torch ≥ 2.7.0+cu128
+numpy
+scipy
+math
+timm
+einops

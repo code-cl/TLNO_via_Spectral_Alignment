@@ -52,9 +52,6 @@ The deformation fields under different temperature fields are obtained via **COM
 `Soft material`
 The response shapes under different material distributions are obtained via **ABAQUS**. The simulation process and parameter settings reference: *"Sun, X., Yue, L., Yu, L., Forte, C. T., Armstrong, C. D., Zhou, K., ... & Qi, H. J. (2024). Machine learning-enabled forward prediction and inverse design of 4D-printed active plates. Nature Communications, 15(1), 5509"*.
 
-## Requirements
-torch, numpy, scipy, math, timm, einops
-
 ## Acknowledge
 We appreciate the following GitHub repos a lot for their valuable code:  
 https://github.com/katiana22/TL-DeepONet  
