@@ -31,7 +31,7 @@ Contains the implementation of the TL-DeepONet method.
 - `target_model.py` — fine-tunes the source model with a small amount of target data to obtain the target model.
 
 `Get_LBO/`
-Contains the code for computing the Laplace–Beltrami operator (LBO) basis and the cross-geometry correspondence function.
+Contains the code for computing the Laplace–Beltrami operator (LBO) basis and the cross-geometry correspondence function. `Data/` already contains the calculated LBO base files.
 - `1_Calculate_lbo.py` — computes the LBO from the given mesh information.
 - `2_Save_indicator_function.py` — computes and saves the cross-geometry correspondence function.
 
